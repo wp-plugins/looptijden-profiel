@@ -1,0 +1,46 @@
+.looptijdenWidget { width: 100%; max-width: 250px; }
+
+.looptijdenWidget h2 {
+	border-bottom: dotted 1px #0F7ECC;
+}
+
+.looptijdenWidget h2 a {
+	color:#055085;
+	text-decoration: none;
+}
+
+.looptijdenWidget h3 {
+	color: #055085;
+	padding-top: 5px;
+	border-bottom: dotted 1px #0F7ECC;
+	margin-bottom: 0 !important;			
+}
+
+.looptijdenWidget .widget-title { color: #055085; border-bottom: solid 2px #055085; padding: 0; font-size: 1.3em; margin-bottom: 10px !important; font-weight: normal; }
+
+.looptijdenWidget .looptijdenLabel {
+	width: 50%;
+	float: left;
+	clear: both;
+	/*border: 1px solid #ccc;*/
+}
+.looptijdenWidget .looptijdenValue {
+	width: 50%;
+	float: left;
+	color: #000;
+	/*border: 1px solid #ccc;*/
+	
+}
+.looptijdenWidget .looptijdenValueFullWidth {
+	width: 100%;
+	/*border: 1px solid #ccc;*/	
+	clear: both;
+	padding-top: 5px;
+}
+
+.looptijdenWidget .looptijdenSamenvatting {
+		
+}
+
+.looptijdenWidget .looptijdenPR .fieldAfstand .looptijdenLabel { display: none; }
+.looptijdenWidget .looptijdenPR .fieldAfstand .looptijdenValue { font-size: 1.1em; width: 100%; }
