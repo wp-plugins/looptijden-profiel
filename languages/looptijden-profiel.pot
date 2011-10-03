@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Looptijden.nl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-02 14:04+0100\n"
+"PO-Revision-Date: 2011-10-03 11:15+0100\n"
+"Last-Translator: Bjorn van der Neut <bjornvdneut@gmail.com>\n"
+"Language-Team: Looptijden.nl <info@looptijden.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;_x;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: looptijden-profiel.php:82
+#: looptijden-profiel.php:334
+#: looptijden-profiel.php:339
+msgid "Over Looptijden.nl"
+msgstr "About Looptijden.nl"
+
+#: looptijden-profiel.php:83
+msgid "Looptijden.nl"
+msgstr "Looptijden.nl"
+
+#: looptijden-profiel.php:92
+#: looptijden-profiel.php:119
+msgid "Looptijden.nl instellingen"
+msgstr "Looptijden.nl settings"
+
+#: looptijden-profiel.php:93
+msgid "Instellingen"
+msgstr "Settings"
+
+#: looptijden-profiel.php:101
+msgid "Looptijden.nl hulp pagina"
+msgstr "Looptijden.nl help page"
+
+#: looptijden-profiel.php:124
+msgid "Opslaan"
+msgstr "Save"
+
+#: looptijden-profiel.php:142
+msgid "Algemene instellingen"
+msgstr "Overall settings"
+
+#: looptijden-profiel.php:143
+msgid "Gebruik eigen stylesheets"
+msgstr "Use own stylesheets"
+
+#: looptijden-profiel.php:144
+msgid "Toon algemene informatie"
+msgstr "Show profile information"
+
+#: looptijden-profiel.php:146
+msgid "Persoonlijke records instellingen"
+msgstr "Personal records settings"
+
+#: looptijden-profiel.php:147
+msgid "Toon persoonlijke records"
+msgstr "Show personal records"
+
+#: looptijden-profiel.php:149
+msgid "Wedstrijden instellingen"
+msgstr "Matches settings"
+
+#: looptijden-profiel.php:150
+msgid "Toon looptijden"
+msgstr "Show times"
+
+#: looptijden-profiel.php:151
+msgid "Toon aantal looptijden (max 10)"
+msgstr "Show amount of times"
+
+#: looptijden-profiel.php:153
+msgid "Geplande wedstrijden instellingen"
+msgstr "Planned matches settings"
+
+#: looptijden-profiel.php:154
+msgid "Toon geplande wedstrijden"
+msgstr "Show planed matches"
+
+#: looptijden-profiel.php:155
+msgid "Toon aantal geplande wedstrijden (max 10)"
+msgstr "Show amound of planed matches (max 10)"
+
+#: looptijden-profiel.php:223
+msgid "<p>Hier onder kunt u alle algemene instellingen aanpassen van de Looptijden.nl plugin.</p>"
+msgstr "<p>Here you can adjust the overall settings from the looptijden.nl plugin.</p>"
+
+#: looptijden-profiel.php:228
+msgid "<p>Hier onder kunt u alle record (pr's) instellingen aanpassen van de Looptijden.nl plugin.</p>"
+msgstr "<p>Here you can adjust the personal records settings from the looptijden.nl plugin.</p>"
+
+#: looptijden-profiel.php:233
+msgid "<p>Hier onder kunt u alle looptijden instellingen aanpassen van de Looptijden.nl plugin.</p>"
+msgstr "<p>Here you can adjust the times settings from the looptijden.nl plugin.</p>"
+
+#: looptijden-profiel.php:238
+msgid "<p>Hier onder kunt u alle geplande wedstrijden aanpassen van de Looptijden.nl plugin.</p>"
+msgstr "<p>Here you can adjust the planned matches settings from the looptijden.nl plugin.</p>"
+
+#: looptijden-profiel.php:246
+msgid "Looptijden.nl berichten"
+msgstr "Looptijden.nl messages"
+
+#: looptijden-profiel.php:259
+msgid "Looptijden.nl nieuws"
+msgstr "Looptijden.nl news"
+
+#: looptijden-profiel.php:282
+#: looptijden-profiel.php:287
+msgid "Hulp nodig"
+msgstr "Help needed"
+
+#: looptijden-profiel.php:293
+msgid "<b>Hoe toon ik de Looptijden.nl plugin op mijn website?</b><br />Je kan de plugin als widget gebruiken. Ga daarvoor naar het <a href=\"widgets.php\">widget</a> onderdeel van Wordpress. Hier kan je de Looptijden.nl widget slepen naar een lokatie waar je de widget wilt tonen. Je kan vervolgens per widget opgeven welk profiel deze moet tonen doormiddel van het invoeren van de juiste profielcode."
+msgstr "<b>How do I show the Looptijden.nl plugin on my website?</b><br />You can use the plugin as a widget. Go to the <a href=\"widgets.php\">widget</a> part of Wordpress. Here you can drag the widget to the location where you want to show the profile. In the widget it self you can give a profile code to show the corresponding profile."
+
+#: looptijden-profiel.php:298
+#, fuzzy
+msgid "<b>Waar kan ik mijn profielcode vinden?</b><br />Login op <a href=\"http://www.looptijden.nl/community/editprofiel\" target=\"_blank\">Looptijden.nl</a> en onder \"wijzig je profiel\" staat aan de onderkant je \"unieke profielcode\" vermeld."
+msgstr "<b>Where can I find my profile code?</b><br />Login on <a href=\"http://www.looptijden.nl/community/editprofiel\" target=\"_blank\">Looptijden.nl</a> and under \"Change profile\"you see ad the bottom your own unique profilecode. "
+
+#: looptijden-profiel.php:303
+#, fuzzy
+msgid "<b>Waar kan in mijn instellingen aanpassen?</b><br />Als je gaat naar de <a href=\"admin.php?page=looptijden-profiel/looptijden-profiel.php_instellingen\">Looptijden instellingen</a> zie je een overzicht van alle instelbare mogelijkheden van de Looptijden.nl plugin."
+msgstr "<b>Where can I adjust my settings?</b><br />If you go to <a href=\"admin.php?page=looptijden-profiel/looptijden.php_instellingen\">Looptijden settings</a> you can change all possible settings from the Looptijden.nl plugin."
+
+#: looptijden-profiel.php:308
+msgid "<b>Hoeveel profielen/widgets kan ik tegelijk tonen?</b><br />Je kan een onbeperkt aantal widgets tegelijk tonen hier zit geen maximum aanvast."
+msgstr "<b>How many profiles/widgets can I show at the same time?</b><br />The amount of widgets is unlimited."
+
+#: looptijden-profiel.php:313
+msgid "<b>Ik wil de informatie tonen op een pagina of in een nieuwsitem is dat mogelijk?</b><br />Ja door gebruik te maken van zogeheten shortcuts. Deze ziet er als volgt uit [looptijden code=\"xxxxxxxx\"] waarbij je de xxxxxx moet vervangen voor je profiel code van looptijden. Deze shotcut kan je zowel op de pagina als in een nieuwsitem plaatsen."
+msgstr "<b>I want to show the profile on a page or newsitesm is dat possible?</b><br />Yes by using a so called shortcut. This looks like this [looptijden code=\"xxxxxxxx\"] where the xxxxxxx should be replaced by your looptijden.nl profile code. This shortcut you can use in a page or newsitem."
+
+#: looptijden-profiel.php:345
+msgid "<a href=\"http://www.looptijden.nl/\" taret=\"_blank\">Looptijden.nl</a> is een website gemaakt als hulpmiddel voor hardlopers om makkelijk hun hardloop prestaties bij te houden. De site is ontstaan als een uit de hand gelopen hobby met als doel om het voor hardlopers makkelijk te maken hun prestaties bij te houden. Een soortgelijke website was - en is - nog niet in het Nederlands aanwezig en hopelijk helpt deze site om je plezier en motivatie in hardlopen te vergroten!<br /><br />Looptijden.nl is in december 2008 online gegaan en is sindsdien in steeds sneller tempo gegroeid. Na het eerste jaar waren en al ruim duizend gebruikers actief op de site en met de introductie van de iPhone app is dat verder gegroeid tot dertienduizend in december 2010. Ook het aantal gebruikers welke dagelijks op de site actief is, is flink meegegroeid. Met enkele duizenden unieke bezoekers per dag behoord Looptijden.nl nu tot de grotere hardloopsites van Nederland.<br /><br />Niet alleen is het gebruik van Looptijden.nl geheel gratis, er is ook een minimale hoeveelheid advertenties zichtbaar op de site. Het bijhouden van je hardlooptijden moet namelijk wel leuk blijven! Ook is de <a href=\"http://www.looptijden.nl/hardlopen/iphone\" target=\"_blank\">iPhone app</a> en de <a href=\"http://www.looptijden.nl/hardlopen/android\" target=\"_blank\">Android app</a> geheel gratis te downloaden en te gebruiken."
+msgstr "<a href=\"http://www.looptijden.nl/\" taret=\"_blank\">Looptijden.nl</a> is made as a tool to help you store your running matches and to see your performance. The site was started as a hobby and is gone out of control. A simaler website in Dutch was not yet available at the time so we hope we can contribute you to keep on running with motivation and pleasure!<br /><br />Looptijden.nl went live on december 2008 and the amount of users is growing and growing. After the first year there where allreadya 1.000 active users. After introducing the iPhone app the amount growed even to 13.000 users in december 2010. With a thousand unique visiters per day Looptijden.nl belongs to the biggest running sites from The Netherlands.<br /><br />"
+
+#: looptijden-profiel.php:370
+msgid "Toon de looptijden.nl profiel informatie in een widget"
+msgstr "Show the looptijden.nl profile information in a widget"
+
+#: looptijden-profiel.php:373
+msgid "Looptijden.nl Profiel Widget"
+msgstr "Looptijden.nl Profile Widget"
+
+#: looptijden-profiel.php:378
+#, fuzzy
+msgid "Mijn Looptijden.nl profiel"
+msgstr "My Looptijden.nl profile"
+
+#: looptijden-profiel.php:385
+msgid "Titel:"
+msgstr "Title:"
+
+#: looptijden-profiel.php:386
+msgid "Profielcode:"
+msgstr "Profilecode:"
+
+#: looptijden-profiel.php:386
+msgid "Waar vind ik mijn profielcode?"
+msgstr "Where do I find my profilecode?"
+
+#: looptijden-profiel.php:404
+msgid "Ongeldige profielcode ingevoerd!"
+msgstr "Invalid profilecode inserted!"
+
+#: looptijden-profiel.php:461
+msgid "Aantal tijden:"
+msgstr "Amount of times:"
+
+#: looptijden-profiel.php:463
+msgid "Aantal km's:"
+msgstr "Amount of km's:"
+
+#: looptijden-profiel.php:476
+msgid "Pr's:"
+msgstr "Personal records"
+
+#: looptijden-profiel.php:482
+#: looptijden-profiel.php:534
+msgid "Afstand"
+msgstr "Distance"
+
+#: looptijden-profiel.php:487
+#: looptijden-profiel.php:539
+#: looptijden-profiel.php:596
+msgid "Datum"
+msgstr "Date"
+
+#: looptijden-profiel.php:492
+#: looptijden-profiel.php:544
+msgid "Tijd"
+msgstr "Time"
+
+#: looptijden-profiel.php:507
+msgid "Laatste tijden's:"
+msgstr "Last times:"
+
+#: looptijden-profiel.php:549
+msgid "Snelheid"
+msgstr "Speed"
+
+#: looptijden-profiel.php:554
+msgid "Calorieen"
+msgstr "Calories"
+
+#: looptijden-profiel.php:559
+msgid "Hartslag (gem.)"
+msgstr "Heart Rate (avr.)"
+
+#: looptijden-profiel.php:564
+msgid "Hartslag (max.)"
+msgstr "Heart Rate (max.)"
+
+#: looptijden-profiel.php:581
+msgid "Geplande wedstrijden:"
+msgstr "Planed matches:"
+
+#: looptijden-profiel.php:605
+msgid "Geen geplande wedstrijden gevonden"
+msgstr "No planed matches found"
+
+#: looptijden-profiel.php:628
+msgid "Fout in het ophalen van de data. Controleer of de opgegeven profielcode correct is"
+msgstr "Error in receiving the data. Please check the given profilecode if this is correct"
+
