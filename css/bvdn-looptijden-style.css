@@ -1,4 +1,8 @@
-.looptijdenWidget { width: 100%; max-width: 250px; }
+.looptijdenWidget { 
+	width: 100%; 
+	max-width: 250px; 
+	padding: 0;
+}
 
 .looptijdenWidget h2 {
 	border-bottom: dotted 1px #0F7ECC;
@@ -33,13 +37,8 @@
 }
 .looptijdenWidget .looptijdenValueFullWidth {
 	width: 100%;
-	/*border: 1px solid #ccc;*/	
 	clear: both;
 	padding-top: 5px;
-}
-
-.looptijdenWidget .looptijdenSamenvatting {
-		
 }
 
 .looptijdenWidget .looptijdenPR .fieldAfstand .looptijdenLabel { display: none; }

@@ -30,7 +30,7 @@ License: GPLv2
 load_plugin_textdomain( 'looptijden-profiel', false,  dirname( plugin_basename(__FILE__) ) . '/languages' );
 
 // To retreive JSON strings from external website
-require_once(ABSPATH."/wp-includes/js/tinymce/plugins/spellchecker/classes/utils/JSON.php");
+//require_once(ABSPATH."/wp-includes/wp-includes/class-json.php");
 
 // Hook when activating the plugin
 register_activation_hook( __FILE__, 'bvdn_looptijden_install' );
@@ -124,7 +124,7 @@ function bvdn_looptijden_instellingen_page() {
 			<input name="Submit" type="submit" value="<?php _e( 'Opslaan', 'looptijden-profiel' ); ?>" />
 		</form>
 
-	</div>
+	</div> <!-- /class="wrap" -->
 <?php
 }
 
@@ -634,16 +634,13 @@ function bvdn_get_looptijden_data( $guid ) {
 
 		// GET JSON content
 		$json_data = wp_remote_request( $url );
-		
+
 		if( !is_wp_error( $json_data ) ) {
-			// Create json object
-			$json_obj = new Moxiecode_JSON();			
-			
 			// Get body data
 			$json_data = wp_remote_retrieve_body( $json_data );
 
 			// Decode the JSON content to an array
-			$data = $json_obj->decode( $json_data );
+			$data = json_decode( $json_data, true );
 		}
 	}
 

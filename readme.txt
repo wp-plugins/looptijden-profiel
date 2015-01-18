@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: neutcomp
 Tags: looptijden.nl, looptijden, hardlopen, hardloop profiel, wedstrijden
-Requires at least: 3.2.1
-Tested up to: 3.2.1
-Stable tag: 0.2
+Requires at least: 4.0
+Tested up to: 4.1
+Stable tag: 0.3
 
 Met de Looptijden.nl plugin is het mogelijk om looptijden.nl informatie te tonen zoals (profiel-, wedstrijd-, pr informatie) op je eigen website
 
@@ -37,7 +37,7 @@ Login op Looptijden.nl en onder "wijzig je profiel" staat aan de onderkant je "u
 
 Als je gaat naar de Looptijden instellingen zie je een overzicht van alle instelbare mogelijkheden van de Looptijden.nl plugin. Zoals het aan en uitzetten van onderdelen of het wel of niet tonen van gehele categorieën.
 
-= Hoeveel profielen/widgets kan ik tegelijk tonen?= 
+= Hoeveel profielen/widgets kan ik tegelijk tonen? = 
 
 Je kan een onbeperkt aantal widgets tegelijk tonen hier zit geen maximum aanvast.
 
@@ -51,8 +51,12 @@ Je kan een onbeperkt aantal widgets tegelijk tonen hier zit geen maximum aanvast
 
 == Changelog ==
 
+= 0.3 =
+* Aanpassing gedaan omdat de JSON library anders geimplementeerd is nu in de nieuwe wordpress versie
+* Stylesheet aanpassing gedaan i.v.m. de nieuwe wordpress template. De Widget is nu weer volledige breedte
+
 = 0.2 =
-*De installatie uitleg aangepast
+* De installatie uitleg aangepast
 
 = 0.1 =
 * De eerste versie van de Looptijden.nl Profiel plugin
